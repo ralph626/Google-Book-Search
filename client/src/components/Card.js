@@ -1,5 +1,5 @@
 import axios from "axios";
-const placeholdDesc = "This book has no descriptions because it's shit.";
+const placeholdDesc = "This book has no descriptions given.";
 export default function BookCard(props) {
   const handleSaveFav = (book) => {
     const bookData = {
@@ -11,7 +11,10 @@ export default function BookCard(props) {
         "https://shadycharacters.co.uk/wp/wp-content/uploads/2016/12/Book_IMG_1754-1-e1481474081467.jpg",
       url: book.infoLink,
     };
-    axios.post("/api/books", bookData).then((res) => alert("Book was saved!"));
+    axios.post("/api/books", bookData).then((res) => {
+      //replace alert with something else
+      alert("Book was saved!");
+    });
   };
   return (
     <>
