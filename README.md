@@ -2,7 +2,8 @@
 
 GitHub link: https://github.com/ralph626/Google-Book-Search
 Deployed link: https://react-ralphs-booksearchengine.herokuapp.com/
-![Logo of the project]https://github.com/ralph626/Google-Book-Search/blob/b619334e3e4a28dbeb26551f99c4b601c906226b/images/bookSearch.PNG
+
+![Logo of the project](https://github.com/ralph626/Google-Book-Search/blob/main/images/bookSearch.PNG?raw=true)
 
 ### Overview
 
